@@ -1,0 +1,31 @@
+﻿<Window x:Class="DeweyHaveFun.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeweyHaveFun"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Dewey and Dragons" Height="450" Width="800">
+    <Grid>
+        <Image Source="/Images/Dewey.jpg" HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="841" Margin="0,0,-49,0"/>
+        <Rectangle Fill="#a83928" HorizontalAlignment="Left" Height="45" Margin="240,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="312"/>
+        <Label Panel.ZIndex="1000" FontSize="26" Content="Dewey &amp; Dragons" HorizontalAlignment="Left" Margin="290,0,0,0" VerticalAlignment="Top" Width="231"/>
+        <Rectangle  Fill="#2897a8" HorizontalAlignment="Left" Height="45" Margin="387,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="165"/>
+        <Rectangle Fill="#2897a8" HorizontalAlignment="Left" Height="60" Margin="136,58,0,0" Stroke="Black" VerticalAlignment="Top" Width="522" Opacity="0.8"/>
+        <Label Content="The best library application for all fantasy enthusiasts and book worms!" HorizontalAlignment="Left" Margin="136,54,0,0" VerticalAlignment="Top" Width="522" FontSize="16"/>
+        <Label Content="Fantasy Games, Rewards, fantasy books, all this and more!" HorizontalAlignment="Left" Margin="193,85,0,0" VerticalAlignment="Top" Width="445" FontSize="16" RenderTransformOrigin="0.5,0.5">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.026"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="bookBtn" Content="Replacing Books" HorizontalAlignment="Left" Margin="273,134,0,0" VerticalAlignment="Top" Width="225" Height="42" Click="bookBtn_Click"/>
+        <Button x:Name="areaBtn" Content="Identifying Areas" HorizontalAlignment="Left" Margin="273,216,0,0" VerticalAlignment="Top" Width="225" Height="42" Click="Button_Click" Opacity="0.65"/>
+        <Button x:Name="callNumberBtn" Content="Finding Call Numbers" HorizontalAlignment="Left" Margin="273,295,0,0" VerticalAlignment="Top" Width="225" Height="42" Opacity="0.65" Click="callNumberBtn_Click"/>
+    </Grid>
+</Window>

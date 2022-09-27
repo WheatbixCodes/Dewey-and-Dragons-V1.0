@@ -1,0 +1,19 @@
+﻿<Window x:Class="DeweyHaveFun.TimeOut"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeweyHaveFun"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Out of Time!" Height="450" Width="800">
+    <Grid>
+        <Image Panel.ZIndex="1000" Source="/Images/goblin1.png" HorizontalAlignment="Left" Height="189" VerticalAlignment="Top" Width="324" RenderTransformOrigin="0.5,0.5" Margin="229,10,0,0"/>
+        <Image Source="/Images/valley.jpg" HorizontalAlignment="Left" Height="446" VerticalAlignment="Top" Width="1038" RenderTransformOrigin="0.5,0.5" Margin="0,0,-246,-27">
+
+        </Image>
+        <Label Panel.ZIndex="1000" FontSize="20" Content="Oh No! It seems you took too long to locate the goblins hideout &#xA;and they found your location before you found theirs! &#xA;&#xA;&#x9;&#x9;&#x9;  YOU LOSE!" HorizontalAlignment="Left" Margin="60,204,0,0" VerticalAlignment="Top" Width="669" Height="158" FontFamily="Lucida Calligraphy"/>
+        <Rectangle  Fill="#ecbb86" HorizontalAlignment="Left" Height="158" Margin="60,204,0,0" Stroke="Black" VerticalAlignment="Top" Width="669" Opacity="0.75"/>
+        <Button Background="#FFF19632" Content="Okay" HorizontalAlignment="Left" Margin="315,367,0,0" VerticalAlignment="Top" Width="145" Height="43" FontSize="16" Click="Button_Click"/>
+    </Grid>
+</Window>

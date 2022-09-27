@@ -1,0 +1,25 @@
+﻿<Window x:Class="DeweyHaveFun.ReplaceBooksHelp"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DeweyHaveFun"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="ReplaceBooksHelp" Height="450" Width="800">
+    <Grid>
+        <Rectangle  Fill="#ecbb86" HorizontalAlignment="Left" Height="419" Stroke="Black" VerticalAlignment="Top" Width="792" Opacity="0.75"/>
+        <Label Panel.ZIndex="1000" FontSize="36" Content="Book Replacement of Xandathar" HorizontalAlignment="Left" Margin="73,0,0,0" VerticalAlignment="Top" Width="644" Height="78" FontFamily="Lucida Calligraphy"/>
+        <Label Panel.ZIndex="1000" FontSize="20" Content="Help &amp; Rules" HorizontalAlignment="Left" Margin="318,53,0,0" VerticalAlignment="Top" Width="160" Height="78" FontFamily="Lucida Calligraphy"/>
+        <Label Panel.ZIndex="1000" FontSize="16" Content="Yourself and your party have been stranded in the desert for days when you find a map " HorizontalAlignment="Left" Margin="0,87,0,0" VerticalAlignment="Top" Width="782" Height="44" FontFamily="Lucida Calligraphy"/>
+        <Label Panel.ZIndex="1000" FontSize="16" Content="leading to a goblins cave, stashed with food, clean water and bountiful loot! " HorizontalAlignment="Left" Margin="64,123,0,0" VerticalAlignment="Top" Width="666" Height="44" FontFamily="Lucida Calligraphy"/>
+        <Label Panel.ZIndex="1000" FontSize="16" Content="1.) After clicking generate, the right box will generate 10 un-ordered co-ordinates" HorizontalAlignment="Left" Margin="10,192,0,0" VerticalAlignment="Top" Width="782" Height="44" FontFamily="Lucida Calligraphy" FontWeight="Bold"/>
+        <Label Panel.ZIndex="1000" FontSize="16" Content="2.) Drag the generated co-ordinates to the left box in the correct ascending order" HorizontalAlignment="Left" Margin="10,236,0,0" VerticalAlignment="Top" Width="782" Height="44" FontFamily="Lucida Calligraphy" FontWeight="Bold"/>
+        <Label Panel.ZIndex="1000" FontSize="16" Content="3.) The left box will highlight correct answers in green, and incorrect in orange." HorizontalAlignment="Left" Margin="10,280,0,0" VerticalAlignment="Top" Width="782" Height="44" FontFamily="Lucida Calligraphy" FontWeight="Bold"/>
+        <Label Panel.ZIndex="1000" FontSize="16" Content="4.) The right box will show the guessed order of the adventurer (user)" HorizontalAlignment="Left" Margin="10,324,0,0" VerticalAlignment="Top" Width="782" Height="44" FontFamily="Lucida Calligraphy" FontWeight="Bold"/>
+        <Label  FontSize="16" Content="5.) Await your Prize or Punishment, good luck and have fun!" HorizontalAlignment="Left" Margin="10,365,0,0" VerticalAlignment="Top" Width="782" Height="44" FontFamily="Lucida Calligraphy" FontWeight="Bold"/>
+        <Label Panel.ZIndex="1000" FontSize="16" Content="Match atleast 7 correct co-ordinates within 35 seconds to find their base!" HorizontalAlignment="Left" Margin="73,157,0,0" VerticalAlignment="Top" Width="626" Height="44" FontFamily="Lucida Calligraphy"/>
+        <Button  Background="#FFF19632" Content="Okay" HorizontalAlignment="Left" Margin="625,357,0,0" VerticalAlignment="Top" Width="145" Height="43" FontSize="16" Click="Button_Click" />
+
+    </Grid>
+</Window>
